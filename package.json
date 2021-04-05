@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "dev": "vue-cli-service build --mode development --watch",
-    "test": "jest"
+    "test": "jest",
+     "deploy": "node gh-pages-deploy.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
